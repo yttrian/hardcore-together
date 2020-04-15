@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian"
+      },
+      "title": {
+        "text": "Hardcore Together"
+      },
+      "description": {
+        "text": "A §c§lhardcore §aexperience for people with friends"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/block/obsidian.png"
+    },
+    "criteria": {
+      "auto": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

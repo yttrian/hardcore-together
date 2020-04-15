@@ -1,0 +1,29 @@
+{
+    "parent": "hardcore_together:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull",
+            "nbt": "{Damage:0}"
+        },
+        "title": {
+            "text": "Beginning of the End"
+        },
+        "description": {
+            "text": "Die for the first time"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "death": {
+            "trigger": "minecraft:entity_killed_player"
+        }
+    },
+    "requirements": [
+        [
+            "death"
+        ]
+    ]
+}
